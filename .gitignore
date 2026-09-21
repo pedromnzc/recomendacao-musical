@@ -1,0 +1,16 @@
+# Ambiente virtual (cada um recria com: pip install -r requirements.txt)
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Cache do pytest
+.pytest_cache/
+
+# Configurações pessoais do editor
+.vscode/
+
+# Variáveis de ambiente / segredos
+.env
