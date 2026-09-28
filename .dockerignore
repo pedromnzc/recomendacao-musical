@@ -1,0 +1,14 @@
+# A venv do Windows não funciona no Linux do container (lá o pip instala tudo de novo)
+.venv/
+venv/
+
+# Caches do Python e do pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Coisas que a API não precisa
+.git/
+.vscode/
+*.pdf
+.env

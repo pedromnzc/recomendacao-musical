@@ -1,0 +1,14 @@
+services:
+  tests:
+    build: .
+    image: recomendacao-musical
+    command: pytest -v
+
+  api:
+    build: .
+    image: recomendacao-musical
+    ports:
+      - "8000:8000"
+    depends_on:
+      tests:
+        condition: service_completed_successfully

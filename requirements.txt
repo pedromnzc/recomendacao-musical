@@ -3,3 +3,5 @@ uvicorn
 pandas
 numpy
 scikit-learn
+httpx
+pytest
